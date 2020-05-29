@@ -13,13 +13,14 @@ Class wallPost {
     public $owner_id = '179884836'; // ID паблика в который постить
     public $message = 'Первый пробный пост';
     public $attachments; // ссылка на картинку/видео/гифку
-    private $access_token = '0ac4eb6e734fd18b5c286d3ae5409ba62a6480b7c3419b797694061853b17eae40fa659749289a3168321';
+    private $access_token = 'ВАШ_ТОКЕН_ВК';
 
     /**
      * @param $owner_id - ID группы
      * @param $count - Сколько записей выбирать
      * @param $message - сообщение к записи
      * @param $attachments - документ, фото, видео, музыка к посту
+     * @param $access_token - ваш токен приложения ВК
      * @return string
      */
 
