@@ -4,14 +4,16 @@ namespace Controllers;
 
 Class GetPost {
 
-    public $count = '1';
-    private $access_token = '0ac4eb6e734fd18b5c286d3ae5409ba62a6480b7c3419b797694061853b17eae40fa659749289a3168321';
+    public $count = '4';
+    private $access_token = 'ВАШ_ТОКЕН_ВК';
 
     /**
      * @param $owner_id - ID группы
      * @param $count - Сколько записей выбирать
+     * @param $access_token - ваш токен приложения ВК
      * @return string
      */
+
 
     public function wallGet($owner_id) {
 
