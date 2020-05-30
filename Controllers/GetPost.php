@@ -4,7 +4,7 @@ namespace Controllers;
 
 Class GetPost {
 
-    public $count = '4';
+    public $count = '1';
     private $access_token = 'ВАШ_ТОКЕН_ВК';
 
     /**
